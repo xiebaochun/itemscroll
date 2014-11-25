@@ -1,0 +1,15 @@
+html,body{
+	
+	margin: 0;
+	padding: 0;
+	background: #000;
+}
+
+.content{
+	position: relative;
+	top:100px;
+	margin: 0 auto;
+	width: 900px;
+	height: 500px;
+	background: #222;
+}

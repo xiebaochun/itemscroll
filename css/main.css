@@ -94,7 +94,7 @@
 	font-size: 50px;
 	color: rgba(200,200,200,0.6);
 	position: relative;
-	line-height: 270px;
+	line-height: 469px;
 	cursor: pointer;
 	z-index: 1;
 	background: rgba(0,0,0,0.05);
@@ -104,11 +104,13 @@
 	background: rgba(0,0,0,0.3);
 }
 .arroy_left{   
-    height: 270px;
+	position: absolute;
+	top: 31px;
+    
 }
 .arroy_right{
 	left: 0px;
 	top:31px;
 	position: absolute !important;
-    margin-left: 750px;
+    margin-left: 800px;
 }
