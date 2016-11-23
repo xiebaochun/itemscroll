@@ -1,8 +1,8 @@
 /*!
- * jQuery Item Scroll Plugin
+ * jQuery Item switch Plugin
  * version: 0.0.1
  * @requires jQuery v1.5 or later
- * Copyright (c) 2013 微个日光日
+ * Copyright (c) 2013 nictse
  * http://xiebaochun.github.com/
  */
 ;(function($) {
