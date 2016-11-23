@@ -1,47 +1,55 @@
 <!doctype html>
 <html>
-  <head>
-  	<meta charset="utf-8">
-  	<title>海阔天口</title>
-  	<link rel="stylesheet" type="text/css" href="css/main.css">
-  	<link rel="stylesheet" type="text/css" href="../css/switch.css">
-  	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
-  	<script type="text/javascript" src="../js/jquery.switch.js"></script>
-  	<script type="text/javascript" src="js/main.js"></script>
-  </head>
-  <body>
-     <div class="content">
-         <div class="product_item" id="app_item" style="height:500px;">
-                 <div class="product_item_title">
-                       <div class="product_item_title_left">demo</div>
-                       <div class="product_item_title_right">></div>
-                     </div>
-                 <ul class="product_list">
-                    <li class="product_list_item">
-                      <div class="product_shortcut">
-                         <a href="http://xiebaochun.github.io/bikegame"><img src="http://xiebaochun.github.io/bikegame/images/shortCut.jpg"></a>
-                      </div>
-                       
-                    </li>
-                    <li class="product_list_item">
-                       <div class="product_shortcut">
-                         <img src="http://xiebaochun.github.io/websiteresource/partygame/min/bg_cover_1.png"> 
-                      </div>
-                    </li>
-                    <li class="product_list_item">
-                       <div class="product_shortcut">
-                         <img src="http://xiebaochun.github.io/websiteresource/arcadegame/min/GameEnd.png"> 
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="arroy arroy_left"><</div>
-                  <div class="arroy arroy_right">></div>
-                  <div class="ls_index">
-                     <a href="#" data-index="1"></a>
-                     <a href="#" data-index="2"></a>
-                     <a href="#" data-index="3"></a>
-                  </div>
-              </div>
-     </div>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>switch demo</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/switch.css">
+        <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.switch.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <div class="product_item" id="app_item" style="height:500px;">
+                <div class="product_item_title">
+                    <div class="product_item_title_left">demo</div>
+                    <div class="product_item_title_right">></div>
+                </div>
+                <!-- switch start -->
+                <div class="switch-wrap" id="switch">
+                    <ul class="switch-list">
+                        <li class="switch-list-item bg-blue">
+                            <div class="product_shortcut hide">
+                                <a href="http://xiebaochun.github.io/bikegame"><img src="http://xiebaochun.github.io/bikegame/images/shortCut.jpg"></a>
+                            </div>
+                        </li>
+                        <li class="switch-list-item bg-green">
+                            <div class="product_shortcut hide">
+                                <img src="http://xiebaochun.github.io/websiteresource/partygame/min/bg_cover_1.png">
+                            </div>
+                        </li>
+                        <li class="switch-list-item bg-red">
+                            <div class="product_shortcut hide">
+                                <img src="http://xiebaochun.github.io/websiteresource/arcadegame/min/GameEnd.png">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="arrow arrow_left"><</div>
+                    <div class="arrow arrow_right">></div>
+                    <div class="ls_index">
+                        <a href="#" data-index="1"></a>
+                        <a href="#" data-index="2"></a>
+                        <a href="#" data-index="3"></a>
+                    </div>
+                </div>
+                <!-- switch end -->
+            </div>
+        </div>
+        <script type="text/javascript">
+        $(function() {
+            $("#switch").itemScroll({});
+        });
+        </script>
+    </body>
 </html>

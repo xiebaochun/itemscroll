@@ -1,0 +1,27 @@
+{
+  "name": "switch",
+  "version": "1.0.0",
+  "description": "item switch plugin powered by jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://xiebaochun:dandan520@github.com/xiebaochun/itemscroll.git"
+  },
+  "keywords": [
+    "switch",
+    "scroll",
+    "slide"
+  ],
+  "author": "xiebaochun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiebaochun/itemscroll/issues"
+  },
+  "homepage": "https://github.com/xiebaochun/itemscroll#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

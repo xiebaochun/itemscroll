@@ -1,94 +1,26 @@
 
-.product_wrap{
-
-	
-	padding: 20px;
-}
-.product_inside{
-	
-	height:auto;
-	margin: 10px;
-	
-}
-.product_top_tab{
-	height:50px;
-	border-bottom: 1px solid #b6b6b6;
-}
-.product_title{
-	line-height: 70px;
-}
-.product_content{
-	position: relative;
+/*switch start*/
+.switch-wrap{
 	width: 100%;
 	height: 100%;
-	background: #eee;
+}
 
-}
-.product_item{
+.switch-wrap .switch-list{
     position: relative;
-	margin-top: 5px;
-	width: 100%;
-	height: 31px;
-    overflow: hidden;
-	background: #fff;
-}
-.product_item_title{
-	width: 100%;
-	height: 30px;
-	line-height: 30px;
-	background: #f5f5f5;
-	color: #aaa;
-	border-bottom: 1px solid #dedede;
-}
-/*.product_item_title:hover{
-	background: #fff5f5;
-}*/
-.product_item_title_left{
-    width: 100px;
-	height: 30px;
-	line-height: 30px;
-	margin-left: 10px;
-    cursor: pointer;
-	display: inline;
-}
-.product_item_title_right{
-	float: right;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	display: inline;
-}
-.product_item_title_right:hover{
-	cursor:pointer;
-}
-.product_item_content{
-    padding: 30px;
-}
-.product_img{
-	height: 200px;
-	display: inline;
-}
-.product_list{
-    position: relative;
-	
 	background: #900;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
-.product_list .product_list_item{
+.switch-wrap .switch-list .switch-list-item{
 	display: inline-block;
 	position: absolute;
-	left: 850px;
-	top: 0px;
+	width: 100%;
+	height: 100%;
 }
-.product_shortcut{
-	padding-left: 100px;
-	margin:30px;
-}
-.product_shortcut img{
-	
-	height: 200px;
-	
-}
-.arroy{
+
+.switch-wrap .arrow{
 	width: 100px;
 	text-align: center;
 	font-size: 50px;
@@ -99,18 +31,19 @@
 	z-index: 1;
 	background: rgba(0,0,0,0.05);
 }
-.arroy:hover{
+.switch-wrap .arrow:hover{
 	color: #f99;
 	background: rgba(0,0,0,0.3);
 }
-.arroy_left{   
+.switch-wrap .arrow_left{   
 	position: absolute;
 	top: 31px;
     
 }
-.arroy_right{
+.switch-wrap .arrow_right{
 	left: 0px;
 	top:31px;
 	position: absolute !important;
     margin-left: 800px;
 }
+/*switch end*/
